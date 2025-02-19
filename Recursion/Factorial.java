@@ -1,7 +1,7 @@
 package Recursion;
 
 public class Factorial {
-	int factorial(int n) {
+	public int factorial(int n) {
 		if(n==0 || n==1)
 			return 1;
 		else
