@@ -1,0 +1,11 @@
+
+Command	Purpose
+cd C:\NPTL_JAVA	                            Navigate to project directory
+tree /F	                                    Show folder structure
+dir INFORMATION_HIDING	                    List files inside INFORMATION_HIDING
+javac -d . INFORMATION_HIDING\MAIN.java	    Compile MAIN.java correctly
+javac -d . INFORMATION_HIDING\*.java	    Compile all Java files in INFORMATION_HIDING/
+javac -d . Recursion\*.java	            Compile all Java files in Recursion/
+java -cp . INFORMATION_HIDING.MAIN	    Run the compiled MAIN.class file
+del MAIN.class	                            Delete wrongly placed MAIN.class
+del /S /Q *.class	                    Remove all compiled .class files
