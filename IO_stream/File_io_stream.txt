@@ -1,0 +1,8 @@
+file I/O stream:-
+
+There are four main classes related to file I/O  in IO package:
+1 File
+2 FileInputStream  (FileReader)
+3 FileOutputStream (FileWriter)
+4 RandomAccesseStream
+
